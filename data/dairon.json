@@ -1,0 +1,541 @@
+{
+  "towns": [
+    {
+      "name": "zarzal",
+      "trash_amount": 1200
+    },
+    {
+      "name": "la union",
+      "trash_amount": 1088.4
+    },
+    {
+      "name": "el dovio",
+      "trash_amount": 218.4
+    },
+    {
+      "name": "toro",
+      "trash_amount": 434.4
+    },
+    {
+      "name": "roldanillo",
+      "trash_amount": 976.8
+    },
+    {
+      "name": "versalles",
+      "trash_amount": 212.4
+    },
+    {
+      "name": "bolivar",
+      "trash_amount": 370.8
+    },
+    {
+      "name": "obando",
+      "trash_amount": 291.6
+    },
+    {
+      "name": "la victoria",
+      "trash_amount": 363.6
+    }
+  ],
+  "centers": [
+    {
+      "name": "santa rita",
+      "cost": 10000000,
+      "capacity": 106400
+    },
+    {
+      "name": "caracoli",
+      "cost": 11000000,
+      "capacity": 109200
+    },
+    {
+      "name": "el alizal",
+      "cost": 12000000,
+      "capacity": 84000
+    },
+    {
+      "name": "la union",
+      "cost": 13000000,
+      "capacity": 28000
+    },
+    {
+      "name": "bolivar",
+      "cost": 14000000,
+      "capacity": 30800
+    },
+    {
+      "name": "toro",
+      "cost": 15000000,
+      "capacity": 42000
+    },
+    {
+      "name": "san jose",
+      "cost": 16000000,
+      "capacity": 140000
+    }
+  ],
+  "treatments": [
+    {
+      "name": "cartago",
+      "capacity": 34200,
+      "material_capacity": {
+        "concrete": 21546,
+        "ceramic": 6840,
+        "other": 5814
+      }
+    },
+    {
+      "name": "caicedonia",
+      "capacity": 18000,
+        "material_capacity": {
+        "concrete": 11340,
+        "ceramic": 3600,
+        "other": 3060
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "concrete",
+      "percentage": 0.63
+    },
+    {
+      "name": "ceramic",
+      "percentage": 0.20
+    },
+    {
+      "name": "other",
+      "percentage": 0.17
+    }
+  ],
+  "transport_costs_from_town_to_center": [
+    {
+      "name": "zarzal",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 10209.23
+        },
+        {
+          "name": "caracoli",
+          "cost": 3754.362
+        },
+        {
+          "name": "el alizal",
+          "cost": 0.00
+        },
+        {
+          "name": "la union",
+          "cost": 16993.428
+        },
+        {
+          "name": "bolivar",
+          "cost": 13897.726
+        },
+        {
+          "name": "toro",
+          "cost": 22262.708
+        },
+        {
+          "name": "san jose",
+          "cost": 9814.034
+        }
+      ]
+    },
+    {
+      "name": "la union",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 7640.456
+        },
+        {
+          "name": "caracoli",
+          "cost": 14029.458
+        },
+        {
+          "name": "el alizal",
+          "cost": 17059.294
+        },
+        {
+          "name": "la union",
+          "cost": 0
+        },
+        {
+          "name": "bolivar",
+          "cost": 19562.202
+        },
+        {
+          "name": "toro",
+          "cost": 7574.59
+        },
+        {
+          "name": "san jose",
+          "cost": 6718.332
+        }
+      ]
+    },
+    {
+      "name": "el dovio",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 18244.882
+        },
+        {
+          "name": "caracoli",
+          "cost": 17981.418
+        },
+        {
+          "name": "el alizal",
+          "cost": 23514.162
+        },
+        {
+          "name": "la union",
+          "cost": 17322.758
+        },
+        {
+          "name": "bolivar",
+          "cost": 22855.502
+        },
+        {
+          "name": "toro",
+          "cost": 22657.904
+        },
+        {
+          "name": "san jose",
+          "cost": 22262.708
+        }
+      ]
+    },
+    {
+      "name": "toro",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 13173.2
+        },
+        {
+          "name": "caracoli",
+          "cost": 19562.202
+        },
+        {
+          "name": "el alizal",
+          "cost": 22592.038
+        },
+        {
+          "name": "la union",
+          "cost": 9352.972
+        },
+        {
+          "name": "bolivar",
+          "cost": 25094.946
+        },
+        {
+          "name": "toro",
+          "cost": 0
+        },
+        {
+          "name": "san jose",
+          "cost": 12316.942
+        }
+      ]
+    },
+    {
+      "name": "roldanillo",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 4083.692
+        },
+        {
+          "name": "caracoli",
+          "cost": 2832.238
+        },
+        {
+          "name": "el alizal",
+          "cost": 8299.116
+        },
+        {
+          "name": "la union",
+          "cost": 10867.89
+        },
+        {
+          "name": "bolivar",
+          "cost": 8364.982
+        },
+        {
+          "name": "toro",
+          "cost": 17454.49
+        },
+        {
+          "name": "san jose",
+          "cost": 15478.51
+        }
+      ]
+    },
+    {
+      "name": "versalles",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 21669.914
+        },
+        {
+          "name": "caracoli",
+          "cost": 25621.874
+        },
+        {
+          "name": "el alizal",
+          "cost": 31088.752
+        },
+        {
+          "name": "la union",
+          "cost": 15873.706
+        },
+        {
+          "name": "bolivar",
+          "cost": 30430.092
+        },
+        {
+          "name": "toro",
+          "cost": 21142.986
+        },
+        {
+          "name": "san jose",
+          "cost": 20747.79
+        }
+      ]
+    },
+    {
+      "name": "bolivar",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 11460.684
+        },
+        {
+          "name": "caracoli",
+          "cost": 9748.168
+        },
+        {
+          "name": "el alizal",
+          "cost": 15215.046
+        },
+        {
+          "name": "la union",
+          "cost": 18179.016
+        },
+        {
+          "name": "bolivar",
+          "cost": 0
+        },
+        {
+          "name": "toro",
+          "cost": 24831.482
+        },
+        {
+          "name": "san jose",
+          "cost": 24699.75
+        }
+      ]
+    },
+    {
+      "name": "obando",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 17454.49
+        },
+        {
+          "name": "caracoli",
+          "cost": 22262.708
+        },
+        {
+          "name": "el alizal",
+          "cost": 16993.428
+        },
+        {
+          "name": "la union",
+          "cost": 13568.396
+        },
+        {
+          "name": "bolivar",
+          "cost": 29310.37
+        },
+        {
+          "name": "toro",
+          "cost": 18574.212
+        },
+        {
+          "name": "san jose",
+          "cost": 9089.508
+        }
+      ]
+    },
+    {
+      "name": "la victoria",
+      "costs": [
+        {
+          "name": "santa rita",
+          "cost": 10406.828
+        },
+        {
+          "name": "caracoli",
+          "cost": 16795.83
+        },
+        {
+          "name": "el alizal",
+          "cost": 12251.076
+        },
+        {
+          "name": "la union",
+          "cost": 6520.734
+        },
+        {
+          "name": "bolivar",
+          "cost": 22262.708
+        },
+        {
+          "name": "toro",
+          "cost": 11526.55
+        },
+        {
+          "name": "san jose",
+          "cost": 1975.98
+        }
+      ]
+    }
+  ],
+  "transport_costs_from_center_to_treatment": [
+    {
+      "name": "santa rita",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 33065
+        },
+        {
+          "name": "caicedonia",
+          "cost": 38400
+        }
+      ]
+    },
+    {
+      "name": "caracoli",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 37741
+        },
+        {
+          "name": "caicedonia",
+          "cost": 32011
+        }
+      ]
+    },
+    {
+      "name": "el alizal",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 32933
+        },
+        {
+          "name": "caicedonia",
+          "cost": 31220
+        }
+      ]
+    },
+    {
+      "name": "la union",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 29245
+        },
+        {
+          "name": "caicedonia",
+          "cost": 46633
+        }
+      ]
+    },
+    {
+      "name": "bolivar",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 47950
+        },
+        {
+          "name": "caicedonia",
+          "cost": 42220
+        }
+      ]
+    },
+    {
+      "name": "toro",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 22987
+        },
+        {
+          "name": "caicedonia",
+          "cost": 50980
+        }
+      ]
+    },
+    {
+      "name": "san jose",
+      "costs": [
+        {
+          "name": "cartago",
+          "cost": 25754
+        },
+        {
+          "name": "caicedonia",
+          "cost": 38532
+        }
+      ]
+    }
+  ],
+  "amount_of_trash_of_towns": [
+    {
+      "name": "zarzal",
+      "trash_amount": 1200
+    },
+    {
+      "name": "la union",
+      "trash_amount": 1088.4
+    },
+    {
+      "name": "el dovio",
+      "trash_amount": 218.4
+    },
+    {
+      "name": "toro",
+      "trash_amount": 434.4
+    },
+    {
+      "name": "roldanillo",
+      "trash_amount": 976.8
+    },
+    {
+      "name": "versalles",
+      "trash_amount": 212.4
+    },
+    {
+      "name": "bolivar",
+      "trash_amount": 370.8
+    },
+    {
+      "name": "obando",
+      "trash_amount": 291.6
+    },
+    {
+      "name": "la victoria",
+      "trash_amount": 363.6
+    }
+  ]
+}
